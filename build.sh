@@ -1,0 +1,1 @@
+dart compile exe ./bin/gits.dart -o git_server
