@@ -1,20 +1,24 @@
-gits
+# gits
 A simple Dart CLI tool to run your own Git server and perform basic Git operations.
 
-Features
+# Note
+This is a repository hosted on a newer Gitserver build and mirrored on github.
+
+# Features
 clone – clone remote repositories
 commit – create commits
 push – push changes
 publish – start a local Git server
-Requirements
+
+# Requirements
 Dart SDK ≥ 3.8.2
 Installation
-Clone this repo and go inside:
+## Clone this repo and go inside:
 Bash
 Run
 git clone <your-repo-URL>
 cd gits
-Build the executable:
+## Build the executable:
 Bash
 Run
 sh build.sh
@@ -26,7 +30,7 @@ Run
 Examples:
 
 Clone a repo:
-./git_server clone https://github.com/user/repo.git
+./git_server clone http://url/user/repo.git
 
 Commit changes:
 ./git_server commit --path ./repo --message "New feature"
