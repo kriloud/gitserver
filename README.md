@@ -17,8 +17,7 @@ Installation
 git clone <your-repo-URL>
 cd gits
 ## Build the executable:
-Bash
-Run
+
 sh build.sh
 This will produce git_server in the project root.
 Usage
