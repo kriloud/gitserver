@@ -14,8 +14,6 @@ publish – start a local Git server
 Dart SDK ≥ 3.8.2
 Installation
 ## Clone this repo and go inside:
-Bash
-Run
 git clone <your-repo-URL>
 cd gits
 ## Build the executable:
