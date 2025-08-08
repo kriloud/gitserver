@@ -1,5 +1,5 @@
 # gits
-A simple Dart CLI tool to run your own Git server and perform basic Git operations.
+A simple JS CLI tool to run your own Git server and perform basic Git operations.
 
 # Note
 This is a repository hosted on a newer Gitserver build and mirrored on github.
@@ -11,13 +11,8 @@ push – push changes
 publish – start a local Git server
 
 # Requirements
-Dart SDK ≥ 3.8.2
-Installation
+Node.JS ≥ 18
 
 ## Clone this repo and go inside:
-git clone <your-repo-URL>
+git clone https://github.com/kriloud/gitserver.git
 cd gits
-
-## Build the executable:
-sh build.sh
-This will produce git_server in the project root.
